@@ -6,6 +6,8 @@ cache:
     - '12'
   git:
       depth: 3
+  install:
+    - npm ci
   script:
     - npm test
     - yarn build
